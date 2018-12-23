@@ -29,7 +29,7 @@ public class MainHome extends AppCompatActivity {
     RequestQueue requestQueue;
     ProgressDialog progressDialog;
     SharedPref sharedPref;
-    String url="http://www.xplosion.in/xplosionapi/api/empread";
+    String url="";//your API
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
