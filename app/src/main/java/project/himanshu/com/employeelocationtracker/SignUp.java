@@ -37,7 +37,7 @@ public class SignUp extends Fragment implements LocationListener {
     Button submit;
     ProgressDialog progressDialog;
     RequestQueue requestQueue;
-    String url = "http://www.xplosion.in/xplosionapi/api/empsignup";
+    String url = "";//your API
     SharedPref sharedPref;
 
     @Override
