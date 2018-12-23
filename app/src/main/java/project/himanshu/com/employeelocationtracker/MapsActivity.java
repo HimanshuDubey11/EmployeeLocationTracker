@@ -56,7 +56,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     String contact;
     Handler handler = new Handler();
     SharedPref sharedPref;
-    String url = "http://www.xplosion.in/xplosionapi/api/fetchlocation";
+    String url = "";//your API
     ArrayList<LatLng> locationData = new ArrayList<LatLng>();
     LocationManager manager;
     String address = new String();
