@@ -37,7 +37,7 @@ public class LocationService extends Service implements LocationListener{
     String address = new String();
     double lat;
     double lng;
-    String url="http://www.xplosion.in/xplosionapi/api/empupdatelocation";
+    String url="";//your API
     RequestQueue requestQueue;
     SharedPref sharedPref;
 
