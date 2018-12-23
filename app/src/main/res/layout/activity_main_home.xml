@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainHome">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mytoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <SearchView
+            android:layout_width="match_parent"
+            style="@style/Widget.AppCompat.Toolbar"
+            android:layout_height="wrap_content"></SearchView>
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_below="@id/mytoolbar"
+        android:textSize="60sp"
+        android:layout_width="wrap_content"
+        android:text="WELCOME"
+        android:id="@+id/welcome"
+        android:layout_margin="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="NAME"
+        android:textSize="30sp"
+        android:id="@+id/name"
+        android:layout_below="@id/welcome"
+        android:layout_margin="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="ID"
+        android:textSize="30sp"
+        android:id="@+id/id"
+        android:layout_below="@id/name"
+        android:layout_margin="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="CONTACT"
+        android:textSize="30sp"
+        android:id="@+id/contact"
+        android:layout_below="@id/id"
+        android:layout_margin="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
