@@ -30,7 +30,7 @@ public class Login extends Fragment {
     Button submit;
     ProgressDialog progressDialog;
     RequestQueue queue;
-    String url="http://www.xplosion.in/xplosionapi/api/emplogin";
+    String url="";//your API
     SharedPref sharedPref;
 
     @Override
